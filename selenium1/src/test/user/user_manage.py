@@ -1,5 +1,14 @@
 import os,sys
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(os.path.dirname(__file__)))+"/base"))
-import login_index
+sys.path.append(os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))+"\\base")
+from base_login import base_login
+from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+
 #用户管理测试
-driver = login_index.getLoginIndex()
+class user_manage(base_login):
+
+    driver = webdriver.Chrome()
+    base_login.getLoginIndex(driver)
+    driver.implicitly_wait(5)
+    menu_user = driver.find_element_by_xpath('//ul[@id="mainnav-menu"]/li[2]')
+    menu_user.click()
