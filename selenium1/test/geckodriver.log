@@ -1,0 +1,42 @@
+1517293657471	geckodriver	INFO	geckodriver 0.19.1
+1517293657479	geckodriver	INFO	Listening on 127.0.0.1:60536
+1517293679442	geckodriver	INFO	geckodriver 0.19.1
+1517293679449	geckodriver	INFO	Listening on 127.0.0.1:60557
+1517293686715	geckodriver	INFO	geckodriver 0.19.1
+1517293686726	geckodriver	INFO	Listening on 127.0.0.1:60569
+1517293721597	geckodriver	INFO	geckodriver 0.19.1
+1517293721605	geckodriver	INFO	Listening on 127.0.0.1:60630
+1517293943126	geckodriver	INFO	geckodriver 0.19.1
+1517293943133	geckodriver	INFO	Listening on 127.0.0.1:60831
+1517293996063	geckodriver	INFO	geckodriver 0.19.1
+1517293996071	geckodriver	INFO	Listening on 127.0.0.1:60887
+1517294001881	geckodriver	INFO	geckodriver 0.19.1
+1517294001891	geckodriver	INFO	Listening on 127.0.0.1:60896
+1517294015026	geckodriver	INFO	geckodriver 0.19.1
+1517294015034	geckodriver	INFO	Listening on 127.0.0.1:60936
+1517294033082	geckodriver	INFO	geckodriver 0.19.1
+1517294033089	geckodriver	INFO	Listening on 127.0.0.1:60991
+1517296509662	geckodriver	INFO	geckodriver 0.19.1
+1517296509670	geckodriver	INFO	Listening on 127.0.0.1:63808
+1517296808281	geckodriver	INFO	geckodriver 0.19.1
+1517296808288	geckodriver	INFO	Listening on 127.0.0.1:64263
+1517298807171	geckodriver	INFO	geckodriver 0.19.1
+1517298807180	geckodriver	INFO	Listening on 127.0.0.1:50722
+1517299112953	geckodriver	INFO	geckodriver 0.19.1
+1517299112968	geckodriver	INFO	Listening on 127.0.0.1:49555
+1517299113797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Temp\\rust_mozprofile.iXWGYR71nQ0x"
+1517299116150	Marionette	INFO	Enabled via --marionette
+1517299118626	Marionette	INFO	Listening on port 49562
+1517299119001	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\zhongqif\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=chees&json=1&p=3&sid=1453_21103_17001_22160&req=2&csor=5&pwd=chee&cb=jQuery110206397247010647958_1517299119965&_=1517299119971, line 1: TypeError: jQuery110206397247010647958_1517299119965 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=cheese&json=1&p=3&sid=1453_21103_17001_22160&req=2&csor=6&pwd=chees&cb=jQuery110206397247010647958_1517299119965&_=1517299119972, line 1: TypeError: jQuery110206397247010647958_1517299119965 is not a function
+Unable to read VR Path Registry from C:\Users\zhongqif\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
